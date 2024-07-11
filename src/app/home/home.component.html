@@ -1,5 +1,26 @@
 <section class="home">
-    <h1>Welcome to My Portfolio</h1>
-    <p>Explore my work and projects.</p>
-  </section>
-  
+  <div class="profile">
+    <div class="circle">
+      <img src="path/to/your/picture.jpg" alt="My Picture">
+    </div>
+  </div>
+  <div class="navigation">
+    <button (click)="showSection('about')">About Me</button>
+    <button (click)="showSection('projects')">Projects</button>
+    <button (click)="showSection('contact')">Contact</button>
+  </div>
+  <div class="details">
+    <div *ngIf="currentSection === 'about'">
+      <h2>About Me</h2>
+      <p>Here is some information about me...</p>
+    </div>
+    <div *ngIf="currentSection === 'projects'">
+      <h2>Projects</h2>
+      <p>Here are my projects...</p>
+    </div>
+    <div *ngIf="currentSection === 'contact'">
+      <h2>Contact</h2>
+      <p>Here is my contact information...</p>
+    </div>
+  </div>
+</section>
