@@ -1,46 +1,46 @@
-/* Example styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-nav {
+  }
+  
+  nav {
     background-color: #333;
     overflow: hidden;
-}
-
-nav ul {
+  }
+  
+  nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-}
-
-nav ul li {
+  }
+  
+  nav ul li {
     flex: 1;
-}
-
-nav ul li a {
+  }
+  
+  nav ul li a {
     display: block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-
-nav ul li a:hover,
-nav ul li a.active {
+  }
+  
+  nav ul li a:hover,
+  nav ul li a.active {
     background-color: #ddd;
     color: black;
-}
-
-main {
+  }
+  
+  main {
     padding: 20px;
-}
-
-footer {
+  }
+  
+  footer {
     background-color: #333;
     color: #f2f2f2;
     text-align: center;
@@ -48,4 +48,5 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-}
+  }
+  
